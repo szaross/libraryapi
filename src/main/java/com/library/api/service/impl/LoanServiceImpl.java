@@ -1,11 +1,8 @@
 package com.library.api.service.impl;
 
-import com.library.api.dto.BookDto;
-import com.library.api.dto.BookResponse;
 import com.library.api.dto.LoanDto;
 import com.library.api.dto.LoanResponse;
 import com.library.api.exceptions.AuthorNotFoundException;
-import com.library.api.models.Book;
 import com.library.api.models.BookCopy;
 import com.library.api.models.Loan;
 import com.library.api.models.User;

@@ -18,7 +18,7 @@ public class Book {
     private long id;
     private String title;
     @ManyToOne
-    @JoinColumn(name="category_id")
+    @JoinColumn(name = "category_id")
     private Category category;
     @ManyToOne
     @JoinColumn(name = "author_id")
